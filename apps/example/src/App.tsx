@@ -237,6 +237,8 @@ export default function App() {
           </svg.tspan>
         </svg.text>
       </svg.svg>
+
+      <html.p>Rendered!</html.p>
     </html.div>
   );
 }
