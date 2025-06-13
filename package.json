@@ -6,7 +6,8 @@
     "packages/*"
   ],
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "yarn apps/example test && yarn apps/vite-project test"
   },
   "prettier": {
     "plugins": [
